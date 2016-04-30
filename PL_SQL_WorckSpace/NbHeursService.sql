@@ -1,0 +1,25 @@
+set serveroutput on
+DECLARE
+
+CURSOR C_PROJ IS
+SELECT * FROM PROJET;
+
+CURSOR C_EMP IS
+SELECT * FROM EMPLOYE;
+
+
+/***********Begin**************/
+
+BEGIN
+
+OPEN C_PROJ;
+OPEN C_EMP;
+
+FOR PROJ IN C_PROJ LOOP
+  LOOP 
+    FETCH 
+      
+
+
+END;
+/
